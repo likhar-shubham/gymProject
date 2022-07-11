@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    font-family: 'Biryani', sans-serif;
+}
+
+.left {
+    color: rgb(56 58 104 / 91%);
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 90px;
+    margin-left: 25px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.mid {
+    color: rgb(56 58 104 / 91%);
+    display: block;
+    margin: 20px auto;
+    width: 33%;
+}
+
+.right {
+    color: red;
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.btn {
+    margin: 0px;
+    color: rgb(56 58 104 / 91%);
+    background-color: rgb(126 138 149 / 81%);
+    padding: 10px 10px;
+    border: 2px solid rgba(57, 62, 66, 0.81);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(100, 166, 224, 0.808);
+}
+
+.navbar {
+    display: inline-block;
+    padding: 0px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: rgb(56 58 104 / 91%);
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+
+.navbar li a:hover,
+.navbar li a:active {
+    color: rgba(100, 166, 224, 0.808);
+    text-decoration: underline;
+    padding: 15px 10px;
+}
+
+.container {
+    border: 2px solid rgba(57, 62, 66, 0.81);
+    margin: 52px 879px;
+    padding: 15px;
+    width: 29%;
+    border-radius: 20px;
+    color: rgb(134 137 213 / 91%);
+
+    /* rgb(56 58 104 / 91%);  */
+    /* rgba(236, 223, 230, 0.808); */
+
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    padding: 8px;
+    width: 320px;
+    margin: 3px auto;
+    font-size: 17px;
+    border-radius: 15px;
+    border: 2px solid rgba(57, 62, 66, 0.81);
+}
+
+.container button {
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+}
